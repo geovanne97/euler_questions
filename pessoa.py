@@ -1,7 +1,7 @@
 from random import randint
 
 class Pessoa:
-    #isso aqui sao atributos da classe pessoa
+    #isso aqui sao atributos da classe pessoa, logo posso ter esse valor sem criar uma instancia, Pessoa.ano_atual
     ano_atual = 2020
     #isso aqui sao atributos da instancia
     def __init__(self,nome,idade,comendo=False,falando=False):#e aqui teria que colocar variavel tbm
